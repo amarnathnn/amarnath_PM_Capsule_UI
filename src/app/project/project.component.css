@@ -1,0 +1,99 @@
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+}
+
+ul.list-group {
+    width: 70%;
+    display: inline-block;
+}
+
+div.view-buttons {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.flex-container div.view-buttons .btn-primary {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.checkbox {
+    font-size: 1.5rem;
+    min-height: auto;
+}
+
+.checkbox label {
+    padding-left: 30px;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 -30px;
+}
+
+.panel ::ng-deep .panel-heading,
+.form-control,
+.control-label,
+.btn,
+.text-right {
+    font-size: 1.5rem !important;
+}
+
+.pad-top-20 {
+    padding-top: 20px;
+}
+
+.mar-left-10 {
+    margin-left: 10px;
+}
+
+.mar-right-10 {
+    margin-right: 10px;
+}
+
+.mar-left-15 {
+    margin-left: 15px;
+}
+
+.table-container {
+    margin: auto;
+    width: 97%;
+    text-align: center;
+    overflow-x: auto;
+    font-size: 1.5rem;
+    border : 1px solid #337ab7;
+    border-radius:2px;
+}
+
+thead {
+    background-color: #363636;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+th {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+tr {
+    height: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.panel-heading {
+    background-color: #337ab7;
+}
+
+.panel-primary {
+    border-color: #363636;
+}

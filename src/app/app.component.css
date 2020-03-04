@@ -1,0 +1,104 @@
+.modal-backdrop {
+    filter: alpha(opacity=80);
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    display: none;
+}
+
+.modal-backdrop-loading {
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    margin: -30px 0 0 -80px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    display: table;
+}
+
+::ng-deep .list-group {
+    font-size: 1.5rem !important;
+}
+
+.modal-backdrop-loading span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.loader {
+    height: 100%;
+    display: block;
+    width: 100%;
+    position: static;
+    left: 0;
+    top: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: #fefefe;
+}
+
+.loader>img {
+    position: relative;
+    top: 40%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.topbar-container {
+    background-color: #337ab7;
+    height: 50px;
+}
+
+.topbar-logo {
+    font-size: 2rem;
+    color: #ccccdb;
+    vertical-align: middle;
+    margin-left: 15px;
+    line-height: 2.2;
+    cursor: pointer;
+}
+
+.topbar-logo:hover {
+    color: #ffffff;
+}
+
+.tabs-container {
+    cursor: pointer;
+    font-size: 1.4rem;
+    float: right;
+}
+
+.tab {
+    display: inline-block;
+    height: 50px;
+    border-left: 1px solid #a3a3a3;
+    color: #ccccdb;
+    padding: 0px 10px;
+    outline: none;
+}
+
+.tab:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.tab:hover {
+    background-color: #222222;
+}
+
+.tab-text {
+    line-height: 3.6;
+    outline: none !important;
+}

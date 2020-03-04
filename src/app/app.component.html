@@ -1,0 +1,26 @@
+<div class="topbar-container">
+    <span class="topbar-logo" [routerLinkActive]="['active']" [routerLink]="['/project']">Project Management</span>
+    <div class="tabs-container">
+        <div [routerLinkActive]="['active']" [routerLink]="['/project']" class="tab">
+            <span class="tab-text">Add Project</span>
+        </div>
+        <div [routerLinkActive]="['active']" [routerLink]="['/addTask']" class="tab">
+            <span class="tab-text">Add Task</span>
+        </div>
+        <div [routerLinkActive]="['active']" [routerLink]="['/user']" class="tab">
+            <span class="tab-text">Add User</span>
+        </div>
+        <div [routerLinkActive]="['active']" [routerLink]="['/viewTask']" class="tab">
+            <span class="tab-text">View Task</span>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top:70px">
+    <router-outlet></router-outlet>
+</div>
+<div id="loading-div" text-center class="modal-backdrop">
+    <div text-center class="modal-backdrop-loading loader">
+        <img src="assets/images/loading.gif" alt="">
+    </div>
+</div>

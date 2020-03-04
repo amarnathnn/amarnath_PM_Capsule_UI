@@ -1,0 +1,49 @@
+.panel ::ng-deep .panel-heading,
+.form-control,
+.control-label,
+.btn,
+.text-right {
+    font-size: 1.5rem !important;
+}
+
+.top-sep {
+    position: relative;
+    top: 3px;
+}
+
+.panel-heading {
+    background-color: #337ab7;
+}
+
+.panel-primary {
+    border-color: #363636;
+}
+
+.table-container {
+    margin: auto;
+    width: 97%;
+    text-align: center;
+    overflow-x: auto;
+    font-size: 1.5rem;
+    border : 1px solid #337ab7;
+    border-radius:2px;
+}
+
+thead {
+    background-color: #337ab7;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+th {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+tr {
+    height: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
